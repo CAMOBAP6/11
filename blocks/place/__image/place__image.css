@@ -16,7 +16,7 @@
 
 @media screen and (max-width:767px) {
     .place__image {
-        max-width: 340px;
+        max-width: 640px;
         margin: 32px auto 0;
         grid-gap: 32px;
     }
