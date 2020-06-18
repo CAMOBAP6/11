@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 1023px) {
     .place {
+        margin: 72px auto 0;
         grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
         grid-gap: 48px 26px;
     }
@@ -32,8 +33,8 @@
 
 @media screen and (max-width:767px) {
     .place {
-        max-width: 340px;
-        margin: 0 auto;
+        max-width: 100%;
+        margin: 48px auto 0;
         grid-gap: 32px;
         display: block;
     }
