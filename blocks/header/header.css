@@ -1,0 +1,19 @@
+@import url(__logo/header__logo.css);
+@import url(__lang-link/header__lang-link.css);
+.header {
+    margin: 0 48px;
+    padding-top: 28px;
+    max-width: calc(100% - 96px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding-top: 16px;
+        min-width: 288px;
+        margin: 0 auto;
+    }
+}
