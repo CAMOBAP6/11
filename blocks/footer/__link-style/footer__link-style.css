@@ -4,3 +4,15 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width:767px) {
+    .footer__link-style {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 0 0;
+    }
+}
+
+.footer__link-style:nth-child(1) {
+    margin: 0;
+}
