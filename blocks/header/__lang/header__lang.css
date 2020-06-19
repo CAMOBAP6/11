@@ -1,0 +1,18 @@
+.header__lang {
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 1.17;
+    font-style: normal;
+    font-weight: normal;
+    width: 78px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 1.33;
+    }
+}

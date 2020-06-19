@@ -1,9 +1,0 @@
-.header__lang-link_en {
-    text-align: right;
-    color: #FFFFFF;
-    text-decoration-line: none;
-}
-
-a.header__lang-link_en:hover {
-    text-decoration: underline;
-}
