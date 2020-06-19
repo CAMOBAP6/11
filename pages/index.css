@@ -10,19 +10,3 @@
         @import url(../blocks/place/place.css);
         @import url(../blocks/cover/cover.css);
         @import url(../blocks/footer/footer.css);
-        .header-lang {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 1.17;
-            color: #FFFFFF;
-            text-decoration-line: none;
-        }
-        
-        .header-lang:hover {
-            opacity: .8;
-        }
-        
-        .header-lang_active {
-            text-decoration: underline;
-        }
